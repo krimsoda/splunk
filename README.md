@@ -10,4 +10,4 @@
 
 -test forwarder
 
--Troubleshooting : port and services
+-Troubleshooting : forwarder configuration, port and services
