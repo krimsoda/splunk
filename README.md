@@ -1,8 +1,8 @@
 # splunk
 
-Splunk Indexer
+ :arrow_right:Splunk Indexer
 
-Splunk Forwarder
+ :arrow_right:Splunk Forwarder
 
 -add splunk account and set a password
 
