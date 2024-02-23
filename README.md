@@ -7,3 +7,7 @@
 -add splunk account and set a password
 
 -install Splunk Forwarder and configure forwarder
+
+-test forwarder
+
+-Troubleshooting : port and services
