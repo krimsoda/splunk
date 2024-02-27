@@ -2,9 +2,45 @@
 
  :arrow_right:Splunk Indexer
 
+Configuration Files and Paths in Splunk Indexer
+
+- Inputs: $SPLUNK_HOME/etc/system/local/inputs.conf
+  - Explanation: This file contains configurations for data inputs such as receiving data from forwarders, scripted inputs, and network ports for data ingestion.
+
+- Indexes: $SPLUNK_HOME/etc/system/local/indexes.conf
+  - Explanation: Here, you define configurations for Splunk indexes, including storage paths, retention policies, and other index-specific settings.
+
+- Outputs: $SPLUNK_HOME/etc/system/local/outputs.conf
+  - Explanation: This file is used to configure where the indexer sends replicated or aggregated data, such as to other indexers or search heads.
+
+- Authentication: $SPLUNK_HOME/etc/system/local/authentication.conf
+  - Explanation: Contains settings for user authentication mechanisms, such as local authentication, LDAP, or Active Directory integration.
+
+- Indexes (Clustered Environment): $SPLUNK_HOME/etc/master-apps/_cluster/local/indexes.conf
+  - Explanation: In a clustered environment, index configurations are managed at the cluster master level. This file contains cluster-wide index configurations.
+
+- Inputs/Outputs App: $SPLUNK_HOME/etc/apps/<app_name>/local/inputs.conf or $SPLUNK_HOME/etc/apps/<app_name>/local/outputs.conf
+  - Explanation: If you have app-specific configurations for inputs or outputs, they can be defined in these files within the respective app's directory.
+
+- License: $SPLUNK_HOME/etc/system/local/server.conf
+  - Explanation: Contains settings related to licensing, including license master configuration and license slave settings.
+
+- Search Head Pooling: $SPLUNK_HOME/etc/system/local/server.conf
+  - Explanation: This file includes configurations related to search head pooling, which allows load balancing and high availability for search heads.
+
+- Cluster: $SPLUNK_HOME/etc/system/local/server.conf
+  - Explanation: Contains settings for indexer clustering, including cluster master and peer configurations.
+
+- Props and Transforms: $SPLUNK_HOME/etc/system/local/props.conf and $SPLUNK_HOME/etc/system/local/transforms.conf
+  - Explanation: These files are used for custom data processing configurations, such as field extractions, event line-breaking, and data transformations before indexing.
+
+- Forwarder Management: $SPLUNK_HOME/etc/system/local/server.conf
+  - Explanation: Configurations related to forwarder management, such as deployment server settings and forwarder monitoring.
+
+
  :arrow_right:Splunk Forwarder
 
-Configuration Files and Paths in Splunk Forwarder:
+Configuration Files and Paths in Splunk Forwarder
 
 - Inputs: /opt/splunkforwarder/etc/system/local/inputs.conf
   - Explanation: This file contains configurations for data inputs such as files, directories, and network ports that the forwarder monitors for data forwarding to the Splunk indexers.
