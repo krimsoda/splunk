@@ -1,3 +1,5 @@
+Create splunk account on linux machine as sudo
+
 
 Step 1: Download Splunk Universal Forwarder
 wget
@@ -11,4 +13,12 @@ Step 5: Configure Forwarder connection to Index Server:
 Step 6: Test Forwarder connection:
 /opt/splunkforwarder/bin/splunk list forward-server
 Step 7: Add Data:
-/opt/splunkforwarder/bin/splunk add monitor /path/to/app/logs/ -index main -sourcetype %app% 
+/opt/splunkforwarder/bin/splunk add monitor /path/to/app/logs/ -index main -sourcetype %app%
+
+
+Restart the Splunk forwarder (/opt/splunkforwarder/bin/splunk restart)
+
+
+
+
+Configure Syslog-ng/Rsyslog Auditd Apache
