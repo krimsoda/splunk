@@ -22,3 +22,7 @@ Restart the Splunk forwarder (/opt/splunkforwarder/bin/splunk restart)
 
 
 Configure Syslog-ng/Rsyslog Auditd Apache
+
+/var/log/audit.log
+
+Logrotate
