@@ -1,6 +1,8 @@
 
 Step 1: Download Splunk Universal Forwarder
+wget
 Step 2: Install Forwarder
+./
 Step 3: Enable boot-start/init script:
 /opt/splunkforwarder/bin/splunk enable boot-start
 start splunk: /opt/splunkforwarder/splunk start
