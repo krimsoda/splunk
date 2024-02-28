@@ -1,0 +1,12 @@
+
+Step 1: Download Splunk Universal Forwarder
+Step 2: Install Forwarder
+Step 3: Enable boot-start/init script:
+/opt/splunkforwarder/bin/splunk enable boot-start
+start splunk: /opt/splunkforwarder/splunk start
+Step 5: Configure Forwarder connection to Index Server:
+/opt/splunkforwarder/bin/splunk add forward-server hostname.domain:9997
+Step 6: Test Forwarder connection:
+/opt/splunkforwarder/bin/splunk list forward-server
+Step 7: Add Data:
+/opt/splunkforwarder/bin/splunk add monitor /path/to/app/logs/ -index main -sourcetype %app% 
