@@ -1,4 +1,8 @@
 # splunk
+The Splunk Architecture comprises three main components:
+- Splunk Forwarder
+- Splunk Indexer
+- Search Head
 
  :arrow_right:Splunk Indexer
 
