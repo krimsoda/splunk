@@ -4,6 +4,11 @@ The Splunk Architecture comprises three main components:
 - Splunk Indexer
 - Search Head
 
+There are 2 types of Splunk Forwarders. These are:
+- Splunk Universal Forwarder
+- Splunk Heavy Forwarder
+
+
  :arrow_right:Splunk Indexer
 
 Configuration Files and Paths in Splunk Indexer
