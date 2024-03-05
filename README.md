@@ -8,6 +8,14 @@ There are 2 types of Splunk Forwarders. These are:
 - Splunk Universal Forwarder
 - Splunk Heavy Forwarder
 
+Log to configure:
+  - Linux
+    - Rsyslog
+    - Auditd
+    - Ssh
+    - SELinux
+ - Windows
+   - Event Viewer
 
  :arrow_right:Splunk Indexer
 
