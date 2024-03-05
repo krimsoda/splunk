@@ -8,7 +8,13 @@ There are 2 types of Splunk Forwarders. These are:
 - Splunk Universal Forwarder
 - Splunk Heavy Forwarder
 
-Log to configure (Forwarder):
+To Do
+
+:arrow_right: Configure Indexer
+
+:arrow_right:Configure Forwarder
+
+:arrow_right: Configure Log
   - Linux
     - Rsyslog | syslog-ng
     - Auditd
