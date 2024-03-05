@@ -10,7 +10,7 @@ There are 2 types of Splunk Forwarders. These are:
 
 To Do
 
-:arrow_right: Configure Indexer
+:arrow_right: Configure Indexer + Head
 
 :arrow_right:Configure Forwarder
 
