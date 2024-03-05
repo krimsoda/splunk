@@ -20,6 +20,8 @@ Log to configure (Forwarder):
 
 SPL Search Processing Language
 
+-Troubleshooting : forwarder configuration, port and services
+
  :arrow_right:Splunk Indexer
 
 Configuration Files and Paths in Splunk Indexer
@@ -92,10 +94,7 @@ Configuration Files and Paths in Splunk Forwarder
 - Forwarder Deployment Apps Logs: /opt/splunkforwarder/var/log/splunk/
   - Explanation: This directory contains logs specific to the forwarder's operation, including deployment client activity, startup/shutdown events, and data forwarding status.
 
--add splunk account and set a password
-
 -install Splunk Forwarder and configure forwarder
 
 -test forwarder
 
--Troubleshooting : forwarder configuration, port and services
