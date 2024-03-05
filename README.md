@@ -24,7 +24,7 @@ To Do
  - Windows
    - Event Viewer
 
-SPL Search Processing Language
+:arrow_right: SPL Search Processing Language
 
 :arrow_right: Troubleshooting : forwarder configuration, port and services
 
