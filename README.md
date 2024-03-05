@@ -10,10 +10,11 @@ There are 2 types of Splunk Forwarders. These are:
 
 Log to configure:
   - Linux
-    - Rsyslog
+    - Rsyslog | syslog-ng
     - Auditd
     - Ssh
     - SELinux
+    - Application Log
  - Windows
    - Event Viewer
 
