@@ -26,7 +26,7 @@ To Do
 
 SPL Search Processing Language
 
-Troubleshooting : forwarder configuration, port and services
+:arrow_right: Troubleshooting : forwarder configuration, port and services
 
  :arrow_right:Splunk Indexer
 
