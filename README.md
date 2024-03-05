@@ -100,5 +100,3 @@ Configuration Files and Paths in Splunk Forwarder
 - Forwarder Deployment Apps Logs: /opt/splunkforwarder/var/log/splunk/
   - Explanation: This directory contains logs specific to the forwarder's operation, including deployment client activity, startup/shutdown events, and data forwarding status.
 
--test forwarder
-
