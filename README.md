@@ -18,6 +18,8 @@ Log to configure:
  - Windows
    - Event Viewer
 
+SPL Search Processing Language
+
  :arrow_right:Splunk Indexer
 
 Configuration Files and Paths in Splunk Indexer
