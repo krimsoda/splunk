@@ -25,7 +25,12 @@ To Do
    - Event Viewer
 
 :arrow_right: SPL Search Processing Language
-
+  - Search Terms
+  - Commands
+  - Functions
+  - Arguments
+  - Clauses
+    
 :arrow_right: Troubleshooting : forwarder configuration, port and services
 
  :arrow_right:Splunk Indexer
